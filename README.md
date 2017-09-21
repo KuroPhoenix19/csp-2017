@@ -1,1 +1,87 @@
-# csp-2017
+<!doctype html>
+<html lang="en">
+<head>
+    <title>KuroPhoenix19 Home</title>
+</head>
+
+<body background="images/enso_zen1.jpg" height="100"></body>
+  
+
+<style>h1{
+    border: 4px solid black;
+    background-color: lightgrey;}
+</style>
+
+<style>
+div.cities {
+    border:4px solid;
+    background-color:lightgrey;
+    color: Black;
+    margin: 5px 0 5px 0;
+    padding: 1px;
+}
+</style>
+
+<style>
+ div.words {
+    border:4px solid;
+    background-color:lightgrey;
+    color: black;
+    margin: 5px 0 5px 0;
+    padding: 1px;
+}
+</style>
+    
+
+ <div class=background-color:#ffffff">
+    <a href="index.html"><img src=images/zencircle_home.jpg height="100">
+    <a href="index.html"> <font face="verdana" color="blue">Home</font></a>
+    <a href="portfolio.html"> <font face="verdana" color="blue">Portfolio</font></a>
+    <h1 id="topheader"style=text-align:center;">This Is My Home Page For This Website
+    </div>
+
+ <script>
+document.getElementById("topheader").onclick = function() {myFunction()};
+function myFunction() {
+    document.getElementById("topheader").innerHTML = "Or Can I?...";
+}
+</script>
+
+<div class="words">
+<h2><center>Here is where I practiced my HTML coding for the first time</center></h2>
+  
+</div>
+
+<div class="cities">
+<p style=text-align:center;>I have been working on this website for about 2 or 3 weeks and there has been a few bumps here and there</p>
+<p style=text-align:center;>This has been my assignment for my Computer Science class</p>
+</div> 
+<div class="cities">
+     <p style=text-align:center;>This video took a couple days to stream on this website and I was finally 
+     </div>
+
+
+<center><iframe width="854" height="480" src="https://www.youtube.com/embed/po2eQsOPjYs" frameborder="0" allowfullscreen></iframe></center>
+
+<div class="cities">
+    <p style=text-align:center;> My next project is to add a gif at the click of a button but it doesn't seem to work all I can do is change the words 
+    
+</div>
+<center><button onclick="myFunction()">Click me</button></center>
+
+
+
+<div class="cities">
+    <p id="demo" onclick="myFunction()" style=text-align:center;>Click me to change my text color.</p>
+</div>
+
+
+<center><script>
+function myFunction() {
+    document.getElementById("demo").innerHTML="The color doesn't seem to work but it changed words...";
+}
+</script></center>
+
+
+
+</html>
